@@ -1,3 +1,7 @@
 {
-  "extends": ["next", "next/core-web-vitals"]
+  "extends": ["next", "next/core-web-vitals"],
+  "plugins": ["mui-unused-classes"],
+  "rules": {
+    "mui-unused-classes/unused-classes": 2
+  }
 }
